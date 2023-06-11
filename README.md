@@ -3,7 +3,10 @@
 
 
 # Requirements
-To run this project, you need to have the Java Development Kit (JDK) installed on your machine.
+To run this project, you need to have the Java Development Kit ('JavaSE-17') installed on your machine.
+
+# Recommendations
+Run this project on any IDE
 
 # Running the Project
 Clone the repository to your local machine:
