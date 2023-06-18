@@ -27,7 +27,9 @@ public class CarrinhoDeCompras {
 	
 	
 	public void AdicionarPizza(Pizza pizza) {
-		itens.add(pizza);
+		if(!pizza.GetIngredientePizza().isEmpty()) {
+			itens.add(pizza);
+		}
 	}
 	
 	

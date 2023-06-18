@@ -24,10 +24,12 @@ public class Pizza {
 		
 		//example:
 		for (String ingrediente : ingredientePizza) {
-			
 			AdicionaIngrediente(ingrediente);
-			
 		}
+	}
+	
+	public ArrayList<String> GetIngredientePizza(){
+		return ingredientePizza;
 	}
 
 	public void AdicionaIngrediente(String ingrediente) {
